@@ -1,0 +1,147 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #212529;
+
+}
+
+
+header {
+    padding: 0 1.2em;
+    background-color: #000;
+}
+
+
+.topnav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em 0;
+    
+}
+
+.left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+}
+
+.right {
+    max-width: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+}
+
+.logo {
+    font-size: 2em;
+    margin-right: 1em;
+    text-decoration: none;
+    color: #BA204E;
+}
+
+.show {
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 550;
+}
+.show:hover {
+    color:#BA204E;
+
+}
+
+.fa {
+    position: relative;
+    left: 1.8em;
+    color: #ffff
+}
+
+input {
+    padding: .5em;
+    border-radius: 5px;
+    background-color: #2B3037;
+    border: none;
+    color:#ffff;
+    padding-right: 2em;
+    font-size: 1rem;
+    font-weight: 500;
+    text-align: left;
+    text-indent: 25px;
+}
+
+input:focus {
+    outline: none;
+  }
+
+input::placeholder {
+    font-size: 1.1em;
+    color: #ffff
+}
+
+.signup {
+    display: block;
+    text-decoration: none;
+    color: #ffffff;;
+    background-color: #BA204E;
+    padding: .5em 1.5em;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+.signup:hover {
+    background-color: #ffffff;
+    color:#BA204E
+}
+
+.login {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.login:hover {
+    color:#BA204E
+}
+
+.hamburger {
+    display: none;
+}
+
+main {
+    padding: 0 1.2em;
+}
+
+.category {
+    margin-top: 4em;
+    font-size: 1.5em;
+    font-weight: 700;
+    color: #ffffff;
+
+}
+
+.row {
+    margin-top: 1.5em;
+}
+
+.thumbnail {
+    width: 250px;
+    height: 150px;
+    border-radius: 5px;
+}
+
+h3 {
+    font-size: 14px !important;
+    font-weight: 600 !important;
+    color: #ffffff;
+
+}
